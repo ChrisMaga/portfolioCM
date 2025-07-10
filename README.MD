@@ -8,7 +8,7 @@ Este é um site pessoal criado com **HTML**, **CSS** e **JavaScript**, com layou
 
 ## 🌐 Acesse o Portfólio Online
 
-🔗 [Clique aqui para acessar o site](https://seu-link.github.io)  
+🔗 [Clique aqui para acessar o site](https://chrismaga.github.io/portfolioCM/)  
 *(substitua pelo link real assim que publicar no GitHub Pages ou outra hospedagem)*
 
 ---
