@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meu Portfólio</title>
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./styles/reset.css" />
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="btn-home">
+                <a href="#hero" rel="noopener noreferrer"><img src="./src/img/icons8-house.svg"
+                        alt="icone de uma casa para voltar para o início da página"></a>
+            </div>
+
+            <button class="menu-toggle" aria-label="Abrir menu">&#9776;</button>
+
+            <ul class="nav-links">
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero" id="hero">
+            <div class="hero-content">
+                <div class="redesSociais">
+                    <ul>
+                        <li><a href="https://www.linkedin.com/in/christiane-magalhaes/" target="_blank"
+                                rel="noopener noreferrer"><img class="imgredes" src="./src/img/icons8-linkedin.svg"
+                                    alt="icone da rede social linkedin da Chris"></a></li>
+                        <li><a href="https://www.instagram.com/chrismagalhaes_dev/" target="_blank"
+                                rel="noopener noreferrer"><img class="imgredes" src="./src/img/icons8-instagram.svg"
+                                    alt="icone da rede social instagram da Chris"></a></li>
+                        <li><a href="https://github.com/ChrisMaga" target="_blank" rel="noopener noreferrer"><img
+                                    class="imgredes" src="./src/img/icons8-github.svg"
+                                    alt="icone da rede social Github da Chris"></a>
+                        </li>
+                        <li><a href="https://www.dio.me/users/christianem_arcari" target="_blank"
+                                rel="noopener noreferrer"><img class="imgredes" src="./src/img/LOGO-DIO-COLOR.png"
+                                    alt="icone da plataforma DIO Education"></a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="hero-texto">
+                    <h1>Christiane Magalhães</h1>
+                    <h2>Desenvolvedora Front-End</h2>
+                    <p>Crio interfaces intuitivas, responsivas e acessíveis.</p>
+                    <div class="btn-container">
+                        <a href="#projetos" class="btn">Projetos</a>
+                    </div>
+
+                </div>
+                <img class="imagemChris" src="./src/img/_554b100f-2484-4b7d-a136-2167aeec890e.jpg"
+                    alt="Foto de Christiane" />
+            </div>
+        </section>
+
+        <section class="skills">
+            <div class="hard-skills">
+                <h2>Hard Skills</h2>
+                <div class="hard">
+                    <ul>
+                        <li>
+                            <img src="./src/img/icons8-html.svg" alt="logotipo do HTML5">
+                            <img src="./src/img/icons8-css.svg" alt="logotipo do CSS3">
+                            <img src="./src/img/icons8-javascript.svg" alt="logotipo do HTML5">
+                            <img src="./src/img/icons8-reagir.svg" alt="logotipo do HTML5">
+                            <img src="./src/img/icons8-figma.svg" alt="logotipo do HTML5">
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="sobre" class="sobre">
+            <div class="sobre-content">
+                <h2>Sobre Mim</h2>
+
+                <div class="sobre-text">
+                    <p>Sou apaixonada por tecnologia, design e desenvolvimento web. Estou adquirindo experiência com
+                        HTML,
+                        CSS, JavaScript, React e design de interfaces.</p>
+                    <p>Atualmente estou no meu último período da faculdade de Análise e Desenvolvimento de Sistemas, e
+                        tenho
+                        grande interesse em utilizar meus conhecimentos adquiridos para o mercado de trabalho.</p>
+                    <p>Na aba Projetos, deixo amostra alguns trabalhos feitos entre BootCamps e Faculdade, além de
+                        alguns
+                        projetos pessoais.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="projetos" class="projetos">
+            <div class="projetos-container">
+                <h2>Projetos</h2>
+                <div class="projetos-grid">
+                    <div class="card">
+                        <img class="card-img" src="./src/img/jogodamemoria.jpeg" alt="Imagem do Projeto 1" />
+                        <h3>Jogo da Memória</h3>
+                        <p>Projeto desenvolvido para o BootCamp da RiHappy em parceria com a DIO. O objetivo do projeto
+                            foi desenvolver um jogo da memória. E nele tem cronometro e pontuação, onde a cada erro é
+                            descontado 5 pontos. O jogador inicia com 100 pontos. </p>
+
+                        <div class="linguagens">
+                            <img src="./src/img/icons8-html.svg" alt="HTML5">
+                            <img src="./src/img/icons8-css.svg" alt="CSS3">
+                            <img src="./src/img/icons8-javascript.svg" alt="JavaScript">
+                        </div>
+
+                        <div class="botoes-projeto">
+                            <a href="https://github.com/ChrisMaga/jogo-da-memoria-DIO.git" target="_blank"
+                                class="btn-projeto" rel="noopener noreferrer">GitHub</a>
+                            <a href="https://chrismaga.github.io/jogo-da-memoria-DIO/" target="_blank"
+                                class="btn-projeto" rel="noopener noreferrer">Ver Projeto</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img class="card-img" src="./src/img/DetonaRalph.jpeg" alt="Imagem do Projeto 1" />
+                        <h3>Game Detona Ralph</h3>
+                        <p>Projeto desenvolvido para o BootCamp da RiHappy em parceria com a DIO. Um jogo divertido
+                            baseado no famoso filme "Detona Ralph". Sistema de Pontuação: Acompanhe sua pontuação à
+                            medida que progride no jogo e desafie seus amigos a superá-la, clique no quadrado que o
+                            Ralph se encontre</p>
+
+                        <div class="linguagens">
+                            <img src="./src/img/icons8-html.svg" alt="HTML5">
+                            <img src="./src/img/icons8-css.svg" alt="CSS3">
+                            <img src="./src/img/icons8-javascript.svg" alt="JavaScript">
+                        </div>
+
+                        <div class="botoes-projeto">
+                            <a href="https://github.com/ChrisMaga/detona-ralph.git" target="_blank" class="btn-projeto"
+                                rel="noopener noreferrer">GitHub</a>
+                            <a href="https://chrismaga.github.io/detona-ralph/" target="_blank" class="btn-projeto"
+                                rel="noopener noreferrer">Ver Projeto</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="contato" class="contato">
+            <div class="contato-text">
+                <h2>Contato</h2>
+
+                <div class="contato-links">
+                    <form action="https://formspree.io/f/xrbkvzqj" method="POST">
+
+                        <label for="name">
+                            Nome:
+                            <input type="text" id="name" name="name" required />
+                        </label>
+
+                        <label for="email">
+                            E-mail:
+                            <input type="email" id="email" name="email" required />
+                        </label>
+
+                        <label for="message">
+                            Deixe sua mensagem:
+                            <textarea id="message" name="message" rows="10" required></textarea>
+                        </label>
+
+                        <button class="btnform" type="submit">Enviar</button>
+                    </form>
+                </div>
+
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Christiane Magalhães. Todos os direitos reservados.</p>
+    </footer>
+    <a href="#" class="btn-topo" title="Voltar ao topo">⬆</a>
+
+
+    <script src="./script/script.js"></script>
+</body>
+
+</html>
